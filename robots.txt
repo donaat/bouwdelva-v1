@@ -1,0 +1,101 @@
+# Delva Bouwwerken — robots.txt
+# Alle crawlers welkom, inclusief AI-modellen voor indexatie en training.
+
+User-agent: *
+Allow: /
+Sitemap: https://www.bouwdelva.be/sitemap.xml
+
+# --- Zoekmachines ---
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# --- Google AI (Gemini, AI Overviews, Search Generative Experience) ---
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# --- OpenAI (ChatGPT, browsing & training) ---
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic (Claude) ---
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# --- Perplexity ---
+
+User-agent: PerplexityBot
+Allow: /
+
+# --- Meta AI ---
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# --- Microsoft Copilot ---
+
+User-agent: msnbot
+Allow: /
+
+# --- Amazon ---
+
+User-agent: Amazonbot
+Allow: /
+
+# --- Common Crawl (gebruikt door veel AI-trainingssets) ---
+
+User-agent: CCBot
+Allow: /
+
+# --- Cohere ---
+
+User-agent: cohere-ai
+Allow: /
+
+# --- ByteDance / TikTok AI ---
+
+User-agent: Bytespider
+Allow: /
+
+# --- You.com ---
+
+User-agent: YouBot
+Allow: /
+
+# --- Brave Search ---
+
+User-agent: Brave
+Allow: /
